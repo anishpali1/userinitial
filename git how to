@@ -1,0 +1,19 @@
+git
+----
+add repository to git hub
+clone repository to local
+/httpdocs
+git clone https://github.com/anishpali1/userinitial.git
+
+add files to local repository
+/httpdocs $ cd userinitial
+git add .
+
+commit in local with a message 
+git commit -m "test message"
+
+push to github
+git push -u orgin master
+
+view status
+git status
